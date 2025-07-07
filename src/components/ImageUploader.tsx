@@ -88,14 +88,14 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({
           onClick={() => fileInputRef.current?.click()}
         >
           <div className="flex flex-col items-center space-y-4">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-              <Upload className="w-8 h-8 text-blue-500" />
+            <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center transition-colors duration-300">
+              <Upload className="w-8 h-8 text-blue-500 dark:text-blue-400" />
             </div>
             <div>
-              <p className="text-lg font-medium text-gray-700 mb-2">
+              <p className="text-lg font-medium text-gray-700 dark:text-gray-200 mb-2 transition-colors duration-300">
                 Drop your image here or click to browse
               </p>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-500 dark:text-gray-400 transition-colors duration-300">
                 Supports JPG, PNG, GIF up to 10MB
               </p>
             </div>
@@ -103,17 +103,17 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({
         </div>
       ) : (
         <div className="relative">
-          <div className="bg-gray-50 rounded-xl p-4">
+          <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-4 transition-colors duration-300">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-2">
-                <ImageIcon className="w-5 h-5 text-gray-500" />
-                <span className="text-sm font-medium text-gray-700">Selected Image</span>
+                <ImageIcon className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-200 transition-colors duration-300">Selected Image</span>
               </div>
               <button
                 onClick={handleReset}
-                className="p-1 hover:bg-gray-200 rounded-full transition-colors"
+                className="p-1 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-full transition-colors duration-200"
               >
-                <X className="w-4 h-4 text-gray-500" />
+                <X className="w-4 h-4 text-gray-500 dark:text-gray-400" />
               </button>
             </div>
             <img

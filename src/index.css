@@ -17,10 +17,19 @@
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
   
+  .dark .card-shadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  
   .upload-area {
     background: linear-gradient(145deg, #f8fafc, #e2e8f0);
     border: 2px dashed #cbd5e1;
     transition: all 0.3s ease;
+  }
+  
+  .dark .upload-area {
+    background: linear-gradient(145deg, #374151, #1f2937);
+    border: 2px dashed #6b7280;
   }
   
   .upload-area:hover {
@@ -28,9 +37,19 @@
     background: linear-gradient(145deg, #f1f5f9, #e2e8f0);
   }
   
+  .dark .upload-area:hover {
+    border-color: #667eea;
+    background: linear-gradient(145deg, #4b5563, #374151);
+  }
+  
   .upload-area.dragover {
     border-color: #667eea;
     background: linear-gradient(145deg, #ede9fe, #ddd6fe);
+  }
+  
+  .dark .upload-area.dragover {
+    border-color: #667eea;
+    background: linear-gradient(145deg, #5b21b6, #4c1d95);
   }
 }
 
@@ -60,4 +79,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
 }
