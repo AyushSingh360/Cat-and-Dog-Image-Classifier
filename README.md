@@ -76,7 +76,7 @@ This project is a modern, responsive web application that uses machine learning 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cat-dog-classifier.git
+git clone https://github.com/AyushSingh360/cat-dog-classifier.git
 
 # Navigate to project directory
 cd cat-dog-classifier
@@ -290,9 +290,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Contact
 
-**Your Name** - [@yourusername](https://twitter.com/yourusername) - your.email@example.com
+**Your Name** - [@Ayush SIngh] - ayushsingh21109@gmail.com
 
-**Project Link**: [https://github.com/yourusername/cat-dog-classifier](https://github.com/yourusername/cat-dog-classifier)
+**Project Link**: [https://github.com/AyushSingh360/cat-dog-classifier](https://github.com/AyushSingh360/cat-dog-classifier)
 
 ---
 
