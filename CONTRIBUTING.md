@@ -8,9 +8,9 @@
 
 We welcome contributions from developers of all skill levels. This guide will help you get started.
 
-[![Contributors](https://img.shields.io/github/contributors/yourusername/cat-dog-classifier.svg)](https://github.com/yourusername/cat-dog-classifier/graphs/contributors)
-[![Issues](https://img.shields.io/github/issues/yourusername/cat-dog-classifier.svg)](https://github.com/yourusername/cat-dog-classifier/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/yourusername/cat-dog-classifier.svg)](https://github.com/yourusername/cat-dog-classifier/pulls)
+[![Contributors](https://img.shields.io/github/contributors/AyushSingh360/cat-dog-classifier.svg)](https://github.com/AyushSingh360/cat-dog-classifier/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/AyushSingh360/cat-dog-classifier.svg)](https://github.com/AyushSingh360/cat-dog-classifier/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/AyushSingh360/cat-dog-classifier.svg)](https://github.com/AyushSingh360/cat-dog-classifier/pulls)
 
 </div>
 
