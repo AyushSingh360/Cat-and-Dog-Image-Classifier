@@ -41,7 +41,7 @@ const ModelInfo: React.FC = () => {
           <div>
             <h4 className="font-medium text-gray-900 mb-1">Performance</h4>
             <p className="text-sm text-gray-600">
-              Achieves >90% accuracy on validation data with binary classification
+              Achieves {'>'}90% accuracy on validation data with binary classification
             </p>
           </div>
         </div>
