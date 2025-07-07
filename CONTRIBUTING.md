@@ -38,7 +38,7 @@ We welcome contributions from developers of all skill levels. This guide will he
 ## 🚀 Quick Start
 
 1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/yourusername/cat-dog-classifier.git`
+2. **Clone** your fork: `git clone https://github.com/AyushSingh360/cat-dog-classifier.git`
 3. **Install** dependencies: `npm install`
 4. **Create** a branch: `git checkout -b feature/your-feature-name`
 5. **Make** your changes
@@ -85,7 +85,7 @@ We welcome contributions from developers of all skill levels. This guide will he
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cat-dog-classifier.git
+git clone https://github.com/AyushSingh360/cat-dog-classifier.git
 cd cat-dog-classifier
 
 # Install dependencies
@@ -516,6 +516,6 @@ Thank you for taking the time to contribute! Every contribution, no matter how s
 
 **Questions? Feel free to reach out!**
 
-[📧 Email](mailto:your.email@example.com) • [🐙 GitHub](https://github.com/yourusername) • [🐦 Twitter](https://twitter.com/yourusername)
+[📧 Email](ayushsingh21109@gmail.com) • [🐙 GitHub](https://github.com/AyushSingh360) • [🐦 Twitter](#)
 
 </div>
