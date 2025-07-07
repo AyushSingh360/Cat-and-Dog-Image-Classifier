@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           <div className="flex items-center space-x-4">
             <ThemeToggle />
             <a
-              href="https://github.com/yourusername/cat-dog-classifier"
+              href="https://github.com/AyushSingh360/Cat-Dog-Classifier"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
